@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* // This file contains global styles that are applied to the entire application. It includes Tailwind CSS directives for base styles, components, and utilities. Additionally, it defines custom styles for the HTML and body elements, as well as scrollbar customization and focus outline styling. The .glass class provides a frosted glass effect, while .text-gradient-gold applies a gradient to text. The .hairline class sets a subtle border color. */
 html {
   scroll-behavior: smooth;
 }
