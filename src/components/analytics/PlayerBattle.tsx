@@ -6,6 +6,7 @@ import Card from '../common/Card';
 const PlayerBattle: React.FC<{ battle: PlayerBattleStat }> = ({ battle }) => {
   const batter = getPlayerById(battle.batterId);
   const bowler = getPlayerById(battle.bowlerId);
+  //player battle is a comparison between a batter and a bowler based on their performance against each other. It includes stats like runs scored, balls faced, dismissals, strike rate, and advantage percentages for both players.
 
   return (
     <Card className="flex flex-col gap-4">

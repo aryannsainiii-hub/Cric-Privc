@@ -14,6 +14,7 @@ const Meter: React.FC<{ label: string; value: number; color: string }> = ({ labe
     </div>
   </div>
 );
+//work over pithes and their behaviour
 
 const PitchAnalysis: React.FC<{ venue: Venue }> = ({ venue }) => (
   <Card className="flex flex-col gap-5">
