@@ -1,0 +1,165 @@
+import { Player } from '../types/player';
+
+// Structured mock squad data. In Phase 2 this will be sourced from
+// GET /teams/:id/players via teamService.
+export const players: Player[] = [
+  // Mumbai Indians
+  { id: 'mi-1', teamId: 'mi', name: 'Rohit Sharma', role: 'Batter', isCaptain: true, formScore: 78, impactScore: 84 },
+  { id: 'mi-2', teamId: 'mi', name: 'Ishan Kishan', role: 'Wicketkeeper', isWicketkeeper: true, formScore: 71, impactScore: 68 },
+  { id: 'mi-3', teamId: 'mi', name: 'Suryakumar Yadav', role: 'Batter', formScore: 88, impactScore: 90 },
+  { id: 'mi-4', teamId: 'mi', name: 'Tilak Varma', role: 'Batter', formScore: 82, impactScore: 76 },
+  { id: 'mi-5', teamId: 'mi', name: 'Hardik Pandya', role: 'All-rounder', formScore: 75, impactScore: 80 },
+  { id: 'mi-6', teamId: 'mi', name: 'Tim David', role: 'Batter', formScore: 69, impactScore: 72 },
+  { id: 'mi-7', teamId: 'mi', name: 'Romario Shepherd', role: 'All-rounder', formScore: 64, impactScore: 66 },
+  { id: 'mi-8', teamId: 'mi', name: 'Piyush Chawla', role: 'Bowler', formScore: 58, impactScore: 60 },
+  { id: 'mi-9', teamId: 'mi', name: 'Jasprit Bumrah', role: 'Bowler', formScore: 93, impactScore: 95 },
+  { id: 'mi-10', teamId: 'mi', name: 'Gerald Coetzee', role: 'Bowler', formScore: 70, impactScore: 71 },
+  { id: 'mi-11', teamId: 'mi', name: 'Trent Boult', role: 'Bowler', formScore: 79, impactScore: 81 },
+  { id: 'mi-12', teamId: 'mi', name: 'Nehal Wadhera', role: 'Batter', formScore: 60, impactScore: 58 },
+  { id: 'mi-13', teamId: 'mi', name: 'Naman Dhir', role: 'All-rounder', formScore: 55, impactScore: 54 },
+  { id: 'mi-14', teamId: 'mi', name: 'Akash Madhwal', role: 'Bowler', formScore: 62, impactScore: 63 },
+  { id: 'mi-15', teamId: 'mi', name: 'Dewald Brevis', role: 'Batter', formScore: 66, impactScore: 65 },
+
+  // Chennai Super Kings
+  { id: 'csk-1', teamId: 'csk', name: 'Ruturaj Gaikwad', role: 'Batter', isCaptain: true, formScore: 85, impactScore: 86 },
+  { id: 'csk-2', teamId: 'csk', name: 'Devon Conway', role: 'Wicketkeeper', isWicketkeeper: true, formScore: 80, impactScore: 78 },
+  { id: 'csk-3', teamId: 'csk', name: 'Shivam Dube', role: 'All-rounder', formScore: 76, impactScore: 79 },
+  { id: 'csk-4', teamId: 'csk', name: 'Ambati Rayudu', role: 'Batter', formScore: 61, impactScore: 60 },
+  { id: 'csk-5', teamId: 'csk', name: 'Ravindra Jadeja', role: 'All-rounder', formScore: 87, impactScore: 89 },
+  { id: 'csk-6', teamId: 'csk', name: 'MS Dhoni', role: 'Wicketkeeper', isWicketkeeper: true, formScore: 74, impactScore: 88 },
+  { id: 'csk-7', teamId: 'csk', name: 'Daryl Mitchell', role: 'All-rounder', formScore: 69, impactScore: 70 },
+  { id: 'csk-8', teamId: 'csk', name: 'Maheesh Theekshana', role: 'Bowler', formScore: 73, impactScore: 74 },
+  { id: 'csk-9', teamId: 'csk', name: 'Deepak Chahar', role: 'Bowler', formScore: 68, impactScore: 71 },
+  { id: 'csk-10', teamId: 'csk', name: 'Tushar Deshpande', role: 'Bowler', formScore: 63, impactScore: 64 },
+  { id: 'csk-11', teamId: 'csk', name: 'Matheesha Pathirana', role: 'Bowler', formScore: 81, impactScore: 83 },
+  { id: 'csk-12', teamId: 'csk', name: 'Rachin Ravindra', role: 'All-rounder', formScore: 65, impactScore: 66 },
+  { id: 'csk-13', teamId: 'csk', name: 'Mustafizur Rahman', role: 'Bowler', formScore: 72, impactScore: 73 },
+  { id: 'csk-14', teamId: 'csk', name: 'Shaik Rasheed', role: 'Batter', formScore: 54, impactScore: 52 },
+  { id: 'csk-15', teamId: 'csk', name: 'Simarjeet Singh', role: 'Bowler', formScore: 57, impactScore: 55 },
+];
+
+// Compact squads for the remaining eight franchises — sufficient to
+// populate selectors and comparisons without bloating Phase 1 mock data.
+const otherSquads: Record<string, { name: string; role: Player['role']; form: number; impact: number }[]> = {
+  rcb: [
+    { name: 'Faf du Plessis', role: 'Batter', form: 79, impact: 80 },
+    { name: 'Virat Kohli', role: 'Batter', form: 91, impact: 93 },
+    { name: 'Glenn Maxwell', role: 'All-rounder', form: 77, impact: 82 },
+    { name: 'Rajat Patidar', role: 'Batter', form: 70, impact: 71 },
+    { name: 'Dinesh Karthik', role: 'Wicketkeeper', form: 64, impact: 66 },
+    { name: 'Cameron Green', role: 'All-rounder', form: 75, impact: 78 },
+    { name: 'Mohammed Siraj', role: 'Bowler', form: 82, impact: 84 },
+    { name: 'Wanindu Hasaranga', role: 'Bowler', form: 78, impact: 79 },
+    { name: 'Yash Dayal', role: 'Bowler', form: 60, impact: 61 },
+    { name: 'Karn Sharma', role: 'Bowler', form: 55, impact: 54 },
+    { name: 'Anuj Rawat', role: 'Wicketkeeper', form: 52, impact: 50 },
+  ],
+  kkr: [
+    { name: 'Shreyas Iyer', role: 'Batter', form: 80, impact: 83 },
+    { name: 'Sunil Narine', role: 'All-rounder', form: 84, impact: 87 },
+    { name: 'Andre Russell', role: 'All-rounder', form: 81, impact: 88 },
+    { name: 'Rinku Singh', role: 'Batter', form: 79, impact: 80 },
+    { name: 'Venkatesh Iyer', role: 'All-rounder', form: 68, impact: 69 },
+    { name: 'Phil Salt', role: 'Wicketkeeper', form: 74, impact: 75 },
+    { name: 'Mitchell Starc', role: 'Bowler', form: 83, impact: 85 },
+    { name: 'Varun Chakravarthy', role: 'Bowler', form: 76, impact: 77 },
+    { name: 'Harshit Rana', role: 'Bowler', form: 62, impact: 63 },
+    { name: 'Vaibhav Arora', role: 'Bowler', form: 58, impact: 57 },
+    { name: 'Ramandeep Singh', role: 'All-rounder', form: 53, impact: 52 },
+  ],
+  rr: [
+    { name: 'Sanju Samson', role: 'Wicketkeeper', form: 82, impact: 84 },
+    { name: 'Yashasvi Jaiswal', role: 'Batter', form: 86, impact: 88 },
+    { name: 'Jos Buttler', role: 'Wicketkeeper', form: 85, impact: 89 },
+    { name: 'Riyan Parag', role: 'All-rounder', form: 71, impact: 72 },
+    { name: 'Shimron Hetmyer', role: 'Batter', form: 73, impact: 74 },
+    { name: 'Ravichandran Ashwin', role: 'Bowler', form: 70, impact: 73 },
+    { name: 'Trent Boult', role: 'Bowler', form: 79, impact: 80 },
+    { name: 'Yuzvendra Chahal', role: 'Bowler', form: 80, impact: 82 },
+    { name: 'Sandeep Sharma', role: 'Bowler', form: 65, impact: 64 },
+    { name: 'Avesh Khan', role: 'Bowler', form: 63, impact: 62 },
+    { name: 'Dhruv Jurel', role: 'Wicketkeeper', form: 60, impact: 59 },
+  ],
+  dc: [
+    { name: 'Rishabh Pant', role: 'Wicketkeeper', form: 80, impact: 85 },
+    { name: 'David Warner', role: 'Batter', form: 78, impact: 81 },
+    { name: 'Axar Patel', role: 'All-rounder', form: 74, impact: 76 },
+    { name: 'Prithvi Shaw', role: 'Batter', form: 62, impact: 61 },
+    { name: 'Mitchell Marsh', role: 'All-rounder', form: 68, impact: 70 },
+    { name: 'Kuldeep Yadav', role: 'Bowler', form: 77, impact: 78 },
+    { name: 'Anrich Nortje', role: 'Bowler', form: 75, impact: 77 },
+    { name: 'Khaleel Ahmed', role: 'Bowler', form: 64, impact: 63 },
+    { name: 'Ishant Sharma', role: 'Bowler', form: 56, impact: 55 },
+    { name: 'Sarfaraz Khan', role: 'Batter', form: 66, impact: 65 },
+    { name: 'Abishek Porel', role: 'Wicketkeeper', form: 54, impact: 53 },
+  ],
+  pbks: [
+    { name: 'Shikhar Dhawan', role: 'Batter', form: 69, impact: 70 },
+    { name: 'Liam Livingstone', role: 'All-rounder', form: 74, impact: 76 },
+    { name: 'Sam Curran', role: 'All-rounder', form: 72, impact: 75 },
+    { name: 'Jitesh Sharma', role: 'Wicketkeeper', form: 68, impact: 67 },
+    { name: 'Shashank Singh', role: 'All-rounder', form: 63, impact: 62 },
+    { name: 'Arshdeep Singh', role: 'Bowler', form: 80, impact: 81 },
+    { name: 'Kagiso Rabada', role: 'Bowler', form: 82, impact: 84 },
+    { name: 'Harpreet Brar', role: 'Bowler', form: 58, impact: 57 },
+    { name: 'Rahul Chahar', role: 'Bowler', form: 61, impact: 60 },
+    { name: 'Prabhsimran Singh', role: 'Wicketkeeper', form: 65, impact: 64 },
+    { name: 'Atharva Taide', role: 'Batter', form: 50, impact: 49 },
+  ],
+  srh: [
+    { name: 'Pat Cummins', role: 'Bowler', isCaptain: true, form: 76, impact: 80 } as any,
+    { name: 'Travis Head', role: 'Batter', form: 88, impact: 89 },
+    { name: 'Abhishek Sharma', role: 'All-rounder', form: 79, impact: 78 },
+    { name: 'Heinrich Klaasen', role: 'Wicketkeeper', form: 84, impact: 86 },
+    { name: 'Aiden Markram', role: 'Batter', form: 75, impact: 77 },
+    { name: 'Nitish Reddy', role: 'All-rounder', form: 66, impact: 67 },
+    { name: 'Bhuvneshwar Kumar', role: 'Bowler', form: 71, impact: 73 },
+    { name: 'T Natarajan', role: 'Bowler', form: 69, impact: 70 },
+    { name: 'Mayank Markande', role: 'Bowler', form: 57, impact: 56 },
+    { name: 'Shahbaz Ahmed', role: 'All-rounder', form: 59, impact: 58 },
+    { name: 'Anmolpreet Singh', role: 'Batter', form: 51, impact: 50 },
+  ],
+  lsg: [
+    { name: 'KL Rahul', role: 'Wicketkeeper', form: 81, impact: 83 },
+    { name: 'Quinton de Kock', role: 'Wicketkeeper', form: 78, impact: 79 },
+    { name: 'Nicholas Pooran', role: 'Wicketkeeper', form: 80, impact: 82 },
+    { name: 'Marcus Stoinis', role: 'All-rounder', form: 72, impact: 74 },
+    { name: 'Deepak Hooda', role: 'All-rounder', form: 65, impact: 64 },
+    { name: 'Ravi Bishnoi', role: 'Bowler', form: 76, impact: 77 },
+    { name: 'Mohsin Khan', role: 'Bowler', form: 68, impact: 69 },
+    { name: 'Yash Thakur', role: 'Bowler', form: 60, impact: 59 },
+    { name: 'Mayank Yadav', role: 'Bowler', form: 74, impact: 76 },
+    { name: 'Ayush Badoni', role: 'Batter', form: 62, impact: 61 },
+    { name: 'Naveen-ul-Haq', role: 'Bowler', form: 63, impact: 62 },
+  ],
+  gt: [
+    { name: 'Shubman Gill', role: 'Batter', isCaptain: true, form: 85, impact: 87 } as any,
+    { name: 'Sai Sudharsan', role: 'Batter', form: 77, impact: 76 },
+    { name: 'Wriddhiman Saha', role: 'Wicketkeeper', form: 58, impact: 57 },
+    { name: 'David Miller', role: 'Batter', form: 76, impact: 78 },
+    { name: 'Rahul Tewatia', role: 'All-rounder', form: 64, impact: 65 },
+    { name: 'Rashid Khan', role: 'Bowler', form: 90, impact: 92 },
+    { name: 'Mohammed Shami', role: 'Bowler', form: 83, impact: 85 },
+    { name: 'Kagiso Rabada', role: 'Bowler', form: 79, impact: 80 },
+    { name: 'Noor Ahmad', role: 'Bowler', form: 70, impact: 69 },
+    { name: 'Shahrukh Khan', role: 'Batter', form: 59, impact: 58 },
+    { name: 'Sai Kishore', role: 'Bowler', form: 61, impact: 60 },
+  ],
+};
+
+Object.entries(otherSquads).forEach(([teamId, squad]) => {
+  squad.forEach((p, idx) => {
+    players.push({
+      id: `${teamId}-${idx + 1}`,
+      teamId,
+      name: p.name,
+      role: p.role,
+      isWicketkeeper: p.role === 'Wicketkeeper',
+      formScore: p.form,
+      impactScore: p.impact,
+    });
+  });
+});
+
+export const getPlayersByTeam = (teamId: string): Player[] => players.filter((p) => p.teamId === teamId);
+export const getPlayerById = (id: string): Player | undefined => players.find((p) => p.id === id);

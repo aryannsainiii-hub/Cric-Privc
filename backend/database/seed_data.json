@@ -1,0 +1,1470 @@
+{
+  "teams": [
+    {
+      "id": "mi",
+      "name": "Mumbai Indians",
+      "short_name": "MI",
+      "primary_color": "#3EA6FF",
+      "secondary_color": "#0D1224",
+      "logo_url": null
+    },
+    {
+      "id": "csk",
+      "name": "Chennai Super Kings",
+      "short_name": "CSK",
+      "primary_color": "#C9A24B",
+      "secondary_color": "#0D1224",
+      "logo_url": null
+    },
+    {
+      "id": "rcb",
+      "name": "Royal Challengers Bengaluru",
+      "short_name": "RCB",
+      "primary_color": "#E2604F",
+      "secondary_color": "#0D1224",
+      "logo_url": null
+    },
+    {
+      "id": "kkr",
+      "name": "Kolkata Knight Riders",
+      "short_name": "KKR",
+      "primary_color": "#6B4EFF",
+      "secondary_color": "#0D1224",
+      "logo_url": null
+    },
+    {
+      "id": "rr",
+      "name": "Rajasthan Royals",
+      "short_name": "RR",
+      "primary_color": "#FF6FAE",
+      "secondary_color": "#0D1224",
+      "logo_url": null
+    },
+    {
+      "id": "dc",
+      "name": "Delhi Capitals",
+      "short_name": "DC",
+      "primary_color": "#3EA6FF",
+      "secondary_color": "#0D1224",
+      "logo_url": null
+    },
+    {
+      "id": "pbks",
+      "name": "Punjab Kings",
+      "short_name": "PBKS",
+      "primary_color": "#E2604F",
+      "secondary_color": "#0D1224",
+      "logo_url": null
+    },
+    {
+      "id": "srh",
+      "name": "Sunrisers Hyderabad",
+      "short_name": "SRH",
+      "primary_color": "#E4890A",
+      "secondary_color": "#0D1224",
+      "logo_url": null
+    },
+    {
+      "id": "lsg",
+      "name": "Lucknow Super Giants",
+      "short_name": "LSG",
+      "primary_color": "#34C77B",
+      "secondary_color": "#0D1224",
+      "logo_url": null
+    },
+    {
+      "id": "gt",
+      "name": "Gujarat Titans",
+      "short_name": "GT",
+      "primary_color": "#6B4EFF",
+      "secondary_color": "#0D1224",
+      "logo_url": null
+    }
+  ],
+  "venues": [
+    {
+      "id": "wankhede",
+      "name": "Wankhede Stadium",
+      "city": "Mumbai",
+      "state": null,
+      "latitude": null,
+      "longitude": null,
+      "average_first_innings_score": 176,
+      "average_second_innings_score": 168,
+      "batting_index": 82,
+      "pace_index": 63,
+      "spin_index": 48,
+      "chasing_advantage": 57
+    },
+    {
+      "id": "chepauk",
+      "name": "MA Chidambaram Stadium",
+      "city": "Chennai",
+      "state": null,
+      "latitude": null,
+      "longitude": null,
+      "average_first_innings_score": 162,
+      "average_second_innings_score": 150,
+      "batting_index": 58,
+      "pace_index": 40,
+      "spin_index": 78,
+      "chasing_advantage": 38
+    },
+    {
+      "id": "chinnaswamy",
+      "name": "M. Chinnaswamy Stadium",
+      "city": "Bengaluru",
+      "state": null,
+      "latitude": null,
+      "longitude": null,
+      "average_first_innings_score": 184,
+      "average_second_innings_score": 172,
+      "batting_index": 88,
+      "pace_index": 45,
+      "spin_index": 42,
+      "chasing_advantage": 61
+    },
+    {
+      "id": "eden",
+      "name": "Eden Gardens",
+      "city": "Kolkata",
+      "state": null,
+      "latitude": null,
+      "longitude": null,
+      "average_first_innings_score": 170,
+      "average_second_innings_score": 160,
+      "batting_index": 70,
+      "pace_index": 55,
+      "spin_index": 60,
+      "chasing_advantage": 52
+    },
+    {
+      "id": "sawaimansingh",
+      "name": "Sawai Mansingh Stadium",
+      "city": "Jaipur",
+      "state": null,
+      "latitude": null,
+      "longitude": null,
+      "average_first_innings_score": 174,
+      "average_second_innings_score": 165,
+      "batting_index": 75,
+      "pace_index": 50,
+      "spin_index": 55,
+      "chasing_advantage": 55
+    },
+    {
+      "id": "arun-jaitley",
+      "name": "Arun Jaitley Stadium",
+      "city": "Delhi",
+      "state": null,
+      "latitude": null,
+      "longitude": null,
+      "average_first_innings_score": 168,
+      "average_second_innings_score": 158,
+      "batting_index": 66,
+      "pace_index": 52,
+      "spin_index": 58,
+      "chasing_advantage": 47
+    },
+    {
+      "id": "mullanpur",
+      "name": "Maharaja Yadavindra Singh Stadium",
+      "city": "Mullanpur",
+      "state": null,
+      "latitude": null,
+      "longitude": null,
+      "average_first_innings_score": 178,
+      "average_second_innings_score": 169,
+      "batting_index": 80,
+      "pace_index": 58,
+      "spin_index": 44,
+      "chasing_advantage": 60
+    },
+    {
+      "id": "uppal",
+      "name": "Rajiv Gandhi International Stadium",
+      "city": "Hyderabad",
+      "state": null,
+      "latitude": null,
+      "longitude": null,
+      "average_first_innings_score": 182,
+      "average_second_innings_score": 174,
+      "batting_index": 85,
+      "pace_index": 47,
+      "spin_index": 46,
+      "chasing_advantage": 63
+    },
+    {
+      "id": "ekana",
+      "name": "BRSABV Ekana Stadium",
+      "city": "Lucknow",
+      "state": null,
+      "latitude": null,
+      "longitude": null,
+      "average_first_innings_score": 160,
+      "average_second_innings_score": 150,
+      "batting_index": 55,
+      "pace_index": 48,
+      "spin_index": 66,
+      "chasing_advantage": 42
+    },
+    {
+      "id": "narendra-modi",
+      "name": "Narendra Modi Stadium",
+      "city": "Ahmedabad",
+      "state": null,
+      "latitude": null,
+      "longitude": null,
+      "average_first_innings_score": 172,
+      "average_second_innings_score": 163,
+      "batting_index": 72,
+      "pace_index": 54,
+      "spin_index": 52,
+      "chasing_advantage": 54
+    }
+  ],
+  "players": [
+    {
+      "id": "mi-1",
+      "team_id": "mi",
+      "name": "Rohit Sharma",
+      "role": "Batter",
+      "is_captain": true,
+      "is_wicketkeeper": false,
+      "form_score": 78,
+      "impact_score": 84
+    },
+    {
+      "id": "mi-2",
+      "team_id": "mi",
+      "name": "Ishan Kishan",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 71,
+      "impact_score": 68
+    },
+    {
+      "id": "mi-3",
+      "team_id": "mi",
+      "name": "Suryakumar Yadav",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 88,
+      "impact_score": 90
+    },
+    {
+      "id": "mi-4",
+      "team_id": "mi",
+      "name": "Tilak Varma",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 82,
+      "impact_score": 76
+    },
+    {
+      "id": "mi-5",
+      "team_id": "mi",
+      "name": "Hardik Pandya",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 75,
+      "impact_score": 80
+    },
+    {
+      "id": "mi-6",
+      "team_id": "mi",
+      "name": "Tim David",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 69,
+      "impact_score": 72
+    },
+    {
+      "id": "mi-7",
+      "team_id": "mi",
+      "name": "Romario Shepherd",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 64,
+      "impact_score": 66
+    },
+    {
+      "id": "mi-8",
+      "team_id": "mi",
+      "name": "Piyush Chawla",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 58,
+      "impact_score": 60
+    },
+    {
+      "id": "mi-9",
+      "team_id": "mi",
+      "name": "Jasprit Bumrah",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 93,
+      "impact_score": 95
+    },
+    {
+      "id": "mi-10",
+      "team_id": "mi",
+      "name": "Gerald Coetzee",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 70,
+      "impact_score": 71
+    },
+    {
+      "id": "mi-11",
+      "team_id": "mi",
+      "name": "Trent Boult",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 79,
+      "impact_score": 81
+    },
+    {
+      "id": "mi-12",
+      "team_id": "mi",
+      "name": "Nehal Wadhera",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 60,
+      "impact_score": 58
+    },
+    {
+      "id": "mi-13",
+      "team_id": "mi",
+      "name": "Naman Dhir",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 55,
+      "impact_score": 54
+    },
+    {
+      "id": "mi-14",
+      "team_id": "mi",
+      "name": "Akash Madhwal",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 62,
+      "impact_score": 63
+    },
+    {
+      "id": "mi-15",
+      "team_id": "mi",
+      "name": "Dewald Brevis",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 66,
+      "impact_score": 65
+    },
+    {
+      "id": "csk-1",
+      "team_id": "csk",
+      "name": "Ruturaj Gaikwad",
+      "role": "Batter",
+      "is_captain": true,
+      "is_wicketkeeper": false,
+      "form_score": 85,
+      "impact_score": 86
+    },
+    {
+      "id": "csk-2",
+      "team_id": "csk",
+      "name": "Devon Conway",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 80,
+      "impact_score": 78
+    },
+    {
+      "id": "csk-3",
+      "team_id": "csk",
+      "name": "Shivam Dube",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 76,
+      "impact_score": 79
+    },
+    {
+      "id": "csk-4",
+      "team_id": "csk",
+      "name": "Ambati Rayudu",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 61,
+      "impact_score": 60
+    },
+    {
+      "id": "csk-5",
+      "team_id": "csk",
+      "name": "Ravindra Jadeja",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 87,
+      "impact_score": 89
+    },
+    {
+      "id": "csk-6",
+      "team_id": "csk",
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 74,
+      "impact_score": 88
+    },
+    {
+      "id": "csk-7",
+      "team_id": "csk",
+      "name": "Daryl Mitchell",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 69,
+      "impact_score": 70
+    },
+    {
+      "id": "csk-8",
+      "team_id": "csk",
+      "name": "Maheesh Theekshana",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 73,
+      "impact_score": 74
+    },
+    {
+      "id": "csk-9",
+      "team_id": "csk",
+      "name": "Deepak Chahar",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 68,
+      "impact_score": 71
+    },
+    {
+      "id": "csk-10",
+      "team_id": "csk",
+      "name": "Tushar Deshpande",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 63,
+      "impact_score": 64
+    },
+    {
+      "id": "csk-11",
+      "team_id": "csk",
+      "name": "Matheesha Pathirana",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 81,
+      "impact_score": 83
+    },
+    {
+      "id": "csk-12",
+      "team_id": "csk",
+      "name": "Rachin Ravindra",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 65,
+      "impact_score": 66
+    },
+    {
+      "id": "csk-13",
+      "team_id": "csk",
+      "name": "Mustafizur Rahman",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 72,
+      "impact_score": 73
+    },
+    {
+      "id": "csk-14",
+      "team_id": "csk",
+      "name": "Shaik Rasheed",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 54,
+      "impact_score": 52
+    },
+    {
+      "id": "csk-15",
+      "team_id": "csk",
+      "name": "Simarjeet Singh",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 57,
+      "impact_score": 55
+    },
+    {
+      "id": "rcb-1",
+      "team_id": "rcb",
+      "name": "Faf du Plessis",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 79,
+      "impact_score": 80
+    },
+    {
+      "id": "rcb-2",
+      "team_id": "rcb",
+      "name": "Virat Kohli",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 91,
+      "impact_score": 93
+    },
+    {
+      "id": "rcb-3",
+      "team_id": "rcb",
+      "name": "Glenn Maxwell",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 77,
+      "impact_score": 82
+    },
+    {
+      "id": "rcb-4",
+      "team_id": "rcb",
+      "name": "Rajat Patidar",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 70,
+      "impact_score": 71
+    },
+    {
+      "id": "rcb-5",
+      "team_id": "rcb",
+      "name": "Dinesh Karthik",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 64,
+      "impact_score": 66
+    },
+    {
+      "id": "rcb-6",
+      "team_id": "rcb",
+      "name": "Cameron Green",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 75,
+      "impact_score": 78
+    },
+    {
+      "id": "rcb-7",
+      "team_id": "rcb",
+      "name": "Mohammed Siraj",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 82,
+      "impact_score": 84
+    },
+    {
+      "id": "rcb-8",
+      "team_id": "rcb",
+      "name": "Wanindu Hasaranga",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 78,
+      "impact_score": 79
+    },
+    {
+      "id": "rcb-9",
+      "team_id": "rcb",
+      "name": "Yash Dayal",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 60,
+      "impact_score": 61
+    },
+    {
+      "id": "rcb-10",
+      "team_id": "rcb",
+      "name": "Karn Sharma",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 55,
+      "impact_score": 54
+    },
+    {
+      "id": "rcb-11",
+      "team_id": "rcb",
+      "name": "Anuj Rawat",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 52,
+      "impact_score": 50
+    },
+    {
+      "id": "kkr-1",
+      "team_id": "kkr",
+      "name": "Shreyas Iyer",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 80,
+      "impact_score": 83
+    },
+    {
+      "id": "kkr-2",
+      "team_id": "kkr",
+      "name": "Sunil Narine",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 84,
+      "impact_score": 87
+    },
+    {
+      "id": "kkr-3",
+      "team_id": "kkr",
+      "name": "Andre Russell",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 81,
+      "impact_score": 88
+    },
+    {
+      "id": "kkr-4",
+      "team_id": "kkr",
+      "name": "Rinku Singh",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 79,
+      "impact_score": 80
+    },
+    {
+      "id": "kkr-5",
+      "team_id": "kkr",
+      "name": "Venkatesh Iyer",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 68,
+      "impact_score": 69
+    },
+    {
+      "id": "kkr-6",
+      "team_id": "kkr",
+      "name": "Phil Salt",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 74,
+      "impact_score": 75
+    },
+    {
+      "id": "kkr-7",
+      "team_id": "kkr",
+      "name": "Mitchell Starc",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 83,
+      "impact_score": 85
+    },
+    {
+      "id": "kkr-8",
+      "team_id": "kkr",
+      "name": "Varun Chakravarthy",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 76,
+      "impact_score": 77
+    },
+    {
+      "id": "kkr-9",
+      "team_id": "kkr",
+      "name": "Harshit Rana",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 62,
+      "impact_score": 63
+    },
+    {
+      "id": "kkr-10",
+      "team_id": "kkr",
+      "name": "Vaibhav Arora",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 58,
+      "impact_score": 57
+    },
+    {
+      "id": "kkr-11",
+      "team_id": "kkr",
+      "name": "Ramandeep Singh",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 53,
+      "impact_score": 52
+    },
+    {
+      "id": "rr-1",
+      "team_id": "rr",
+      "name": "Sanju Samson",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 82,
+      "impact_score": 84
+    },
+    {
+      "id": "rr-2",
+      "team_id": "rr",
+      "name": "Yashasvi Jaiswal",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 86,
+      "impact_score": 88
+    },
+    {
+      "id": "rr-3",
+      "team_id": "rr",
+      "name": "Jos Buttler",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 85,
+      "impact_score": 89
+    },
+    {
+      "id": "rr-4",
+      "team_id": "rr",
+      "name": "Riyan Parag",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 71,
+      "impact_score": 72
+    },
+    {
+      "id": "rr-5",
+      "team_id": "rr",
+      "name": "Shimron Hetmyer",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 73,
+      "impact_score": 74
+    },
+    {
+      "id": "rr-6",
+      "team_id": "rr",
+      "name": "Ravichandran Ashwin",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 70,
+      "impact_score": 73
+    },
+    {
+      "id": "rr-7",
+      "team_id": "rr",
+      "name": "Trent Boult",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 79,
+      "impact_score": 80
+    },
+    {
+      "id": "rr-8",
+      "team_id": "rr",
+      "name": "Yuzvendra Chahal",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 80,
+      "impact_score": 82
+    },
+    {
+      "id": "rr-9",
+      "team_id": "rr",
+      "name": "Sandeep Sharma",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 65,
+      "impact_score": 64
+    },
+    {
+      "id": "rr-10",
+      "team_id": "rr",
+      "name": "Avesh Khan",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 63,
+      "impact_score": 62
+    },
+    {
+      "id": "rr-11",
+      "team_id": "rr",
+      "name": "Dhruv Jurel",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 60,
+      "impact_score": 59
+    },
+    {
+      "id": "dc-1",
+      "team_id": "dc",
+      "name": "Rishabh Pant",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 80,
+      "impact_score": 85
+    },
+    {
+      "id": "dc-2",
+      "team_id": "dc",
+      "name": "David Warner",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 78,
+      "impact_score": 81
+    },
+    {
+      "id": "dc-3",
+      "team_id": "dc",
+      "name": "Axar Patel",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 74,
+      "impact_score": 76
+    },
+    {
+      "id": "dc-4",
+      "team_id": "dc",
+      "name": "Prithvi Shaw",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 62,
+      "impact_score": 61
+    },
+    {
+      "id": "dc-5",
+      "team_id": "dc",
+      "name": "Mitchell Marsh",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 68,
+      "impact_score": 70
+    },
+    {
+      "id": "dc-6",
+      "team_id": "dc",
+      "name": "Kuldeep Yadav",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 77,
+      "impact_score": 78
+    },
+    {
+      "id": "dc-7",
+      "team_id": "dc",
+      "name": "Anrich Nortje",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 75,
+      "impact_score": 77
+    },
+    {
+      "id": "dc-8",
+      "team_id": "dc",
+      "name": "Khaleel Ahmed",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 64,
+      "impact_score": 63
+    },
+    {
+      "id": "dc-9",
+      "team_id": "dc",
+      "name": "Ishant Sharma",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 56,
+      "impact_score": 55
+    },
+    {
+      "id": "dc-10",
+      "team_id": "dc",
+      "name": "Sarfaraz Khan",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 66,
+      "impact_score": 65
+    },
+    {
+      "id": "dc-11",
+      "team_id": "dc",
+      "name": "Abishek Porel",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 54,
+      "impact_score": 53
+    },
+    {
+      "id": "pbks-1",
+      "team_id": "pbks",
+      "name": "Shikhar Dhawan",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 69,
+      "impact_score": 70
+    },
+    {
+      "id": "pbks-2",
+      "team_id": "pbks",
+      "name": "Liam Livingstone",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 74,
+      "impact_score": 76
+    },
+    {
+      "id": "pbks-3",
+      "team_id": "pbks",
+      "name": "Sam Curran",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 72,
+      "impact_score": 75
+    },
+    {
+      "id": "pbks-4",
+      "team_id": "pbks",
+      "name": "Jitesh Sharma",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 68,
+      "impact_score": 67
+    },
+    {
+      "id": "pbks-5",
+      "team_id": "pbks",
+      "name": "Shashank Singh",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 63,
+      "impact_score": 62
+    },
+    {
+      "id": "pbks-6",
+      "team_id": "pbks",
+      "name": "Arshdeep Singh",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 80,
+      "impact_score": 81
+    },
+    {
+      "id": "pbks-7",
+      "team_id": "pbks",
+      "name": "Kagiso Rabada",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 82,
+      "impact_score": 84
+    },
+    {
+      "id": "pbks-8",
+      "team_id": "pbks",
+      "name": "Harpreet Brar",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 58,
+      "impact_score": 57
+    },
+    {
+      "id": "pbks-9",
+      "team_id": "pbks",
+      "name": "Rahul Chahar",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 61,
+      "impact_score": 60
+    },
+    {
+      "id": "pbks-10",
+      "team_id": "pbks",
+      "name": "Prabhsimran Singh",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 65,
+      "impact_score": 64
+    },
+    {
+      "id": "pbks-11",
+      "team_id": "pbks",
+      "name": "Atharva Taide",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 50,
+      "impact_score": 49
+    },
+    {
+      "id": "srh-1",
+      "team_id": "srh",
+      "name": "Pat Cummins",
+      "role": "Bowler",
+      "is_captain": true,
+      "is_wicketkeeper": false,
+      "form_score": 76,
+      "impact_score": 80
+    },
+    {
+      "id": "srh-2",
+      "team_id": "srh",
+      "name": "Travis Head",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 88,
+      "impact_score": 89
+    },
+    {
+      "id": "srh-3",
+      "team_id": "srh",
+      "name": "Abhishek Sharma",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 79,
+      "impact_score": 78
+    },
+    {
+      "id": "srh-4",
+      "team_id": "srh",
+      "name": "Heinrich Klaasen",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 84,
+      "impact_score": 86
+    },
+    {
+      "id": "srh-5",
+      "team_id": "srh",
+      "name": "Aiden Markram",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 75,
+      "impact_score": 77
+    },
+    {
+      "id": "srh-6",
+      "team_id": "srh",
+      "name": "Nitish Reddy",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 66,
+      "impact_score": 67
+    },
+    {
+      "id": "srh-7",
+      "team_id": "srh",
+      "name": "Bhuvneshwar Kumar",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 71,
+      "impact_score": 73
+    },
+    {
+      "id": "srh-8",
+      "team_id": "srh",
+      "name": "T Natarajan",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 69,
+      "impact_score": 70
+    },
+    {
+      "id": "srh-9",
+      "team_id": "srh",
+      "name": "Mayank Markande",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 57,
+      "impact_score": 56
+    },
+    {
+      "id": "srh-10",
+      "team_id": "srh",
+      "name": "Shahbaz Ahmed",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 59,
+      "impact_score": 58
+    },
+    {
+      "id": "srh-11",
+      "team_id": "srh",
+      "name": "Anmolpreet Singh",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 51,
+      "impact_score": 50
+    },
+    {
+      "id": "lsg-1",
+      "team_id": "lsg",
+      "name": "KL Rahul",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 81,
+      "impact_score": 83
+    },
+    {
+      "id": "lsg-2",
+      "team_id": "lsg",
+      "name": "Quinton de Kock",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 78,
+      "impact_score": 79
+    },
+    {
+      "id": "lsg-3",
+      "team_id": "lsg",
+      "name": "Nicholas Pooran",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 80,
+      "impact_score": 82
+    },
+    {
+      "id": "lsg-4",
+      "team_id": "lsg",
+      "name": "Marcus Stoinis",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 72,
+      "impact_score": 74
+    },
+    {
+      "id": "lsg-5",
+      "team_id": "lsg",
+      "name": "Deepak Hooda",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 65,
+      "impact_score": 64
+    },
+    {
+      "id": "lsg-6",
+      "team_id": "lsg",
+      "name": "Ravi Bishnoi",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 76,
+      "impact_score": 77
+    },
+    {
+      "id": "lsg-7",
+      "team_id": "lsg",
+      "name": "Mohsin Khan",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 68,
+      "impact_score": 69
+    },
+    {
+      "id": "lsg-8",
+      "team_id": "lsg",
+      "name": "Yash Thakur",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 60,
+      "impact_score": 59
+    },
+    {
+      "id": "lsg-9",
+      "team_id": "lsg",
+      "name": "Mayank Yadav",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 74,
+      "impact_score": 76
+    },
+    {
+      "id": "lsg-10",
+      "team_id": "lsg",
+      "name": "Ayush Badoni",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 62,
+      "impact_score": 61
+    },
+    {
+      "id": "lsg-11",
+      "team_id": "lsg",
+      "name": "Naveen-ul-Haq",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 63,
+      "impact_score": 62
+    },
+    {
+      "id": "gt-1",
+      "team_id": "gt",
+      "name": "Shubman Gill",
+      "role": "Batter",
+      "is_captain": true,
+      "is_wicketkeeper": false,
+      "form_score": 85,
+      "impact_score": 87
+    },
+    {
+      "id": "gt-2",
+      "team_id": "gt",
+      "name": "Sai Sudharsan",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 77,
+      "impact_score": 76
+    },
+    {
+      "id": "gt-3",
+      "team_id": "gt",
+      "name": "Wriddhiman Saha",
+      "role": "Wicketkeeper",
+      "is_captain": false,
+      "is_wicketkeeper": true,
+      "form_score": 58,
+      "impact_score": 57
+    },
+    {
+      "id": "gt-4",
+      "team_id": "gt",
+      "name": "David Miller",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 76,
+      "impact_score": 78
+    },
+    {
+      "id": "gt-5",
+      "team_id": "gt",
+      "name": "Rahul Tewatia",
+      "role": "All-rounder",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 64,
+      "impact_score": 65
+    },
+    {
+      "id": "gt-6",
+      "team_id": "gt",
+      "name": "Rashid Khan",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 90,
+      "impact_score": 92
+    },
+    {
+      "id": "gt-7",
+      "team_id": "gt",
+      "name": "Mohammed Shami",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 83,
+      "impact_score": 85
+    },
+    {
+      "id": "gt-8",
+      "team_id": "gt",
+      "name": "Kagiso Rabada",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 79,
+      "impact_score": 80
+    },
+    {
+      "id": "gt-9",
+      "team_id": "gt",
+      "name": "Noor Ahmad",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 70,
+      "impact_score": 69
+    },
+    {
+      "id": "gt-10",
+      "team_id": "gt",
+      "name": "Shahrukh Khan",
+      "role": "Batter",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 59,
+      "impact_score": 58
+    },
+    {
+      "id": "gt-11",
+      "team_id": "gt",
+      "name": "Sai Kishore",
+      "role": "Bowler",
+      "is_captain": false,
+      "is_wicketkeeper": false,
+      "form_score": 61,
+      "impact_score": 60
+    }
+  ],
+  "matches": [
+    {
+      "id": "m1",
+      "team_a_id": "mi",
+      "team_b_id": "csk",
+      "venue_id": "wankhede",
+      "match_date": "2026-09-05",
+      "match_time": "19:30",
+      "day_night": "Night",
+      "match_type": "IPL League Match"
+    },
+    {
+      "id": "m2",
+      "team_a_id": "rcb",
+      "team_b_id": "kkr",
+      "venue_id": "chinnaswamy",
+      "match_date": "2026-09-06",
+      "match_time": "19:30",
+      "day_night": "Night",
+      "match_type": "IPL League Match"
+    },
+    {
+      "id": "m3",
+      "team_a_id": "rr",
+      "team_b_id": "dc",
+      "venue_id": "sawaimansingh",
+      "match_date": "2026-09-07",
+      "match_time": "15:30",
+      "day_night": "Day/Night",
+      "match_type": "IPL League Match"
+    },
+    {
+      "id": "m4",
+      "team_a_id": "pbks",
+      "team_b_id": "srh",
+      "venue_id": "mullanpur",
+      "match_date": "2026-09-08",
+      "match_time": "19:30",
+      "day_night": "Night",
+      "match_type": "IPL League Match"
+    },
+    {
+      "id": "m5",
+      "team_a_id": "gt",
+      "team_b_id": "lsg",
+      "venue_id": "narendra-modi",
+      "match_date": "2026-09-09",
+      "match_time": "19:30",
+      "day_night": "Night",
+      "match_type": "IPL League Match"
+    },
+    {
+      "id": "m6",
+      "team_a_id": "csk",
+      "team_b_id": "rcb",
+      "venue_id": "chepauk",
+      "match_date": "2026-09-10",
+      "match_time": "19:30",
+      "day_night": "Night",
+      "match_type": "IPL League Match"
+    }
+  ]
+}
