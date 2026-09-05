@@ -29,5 +29,6 @@ const WeatherIntelligence: React.FC = () => {
     </div>
   );
 };
+//wether intelligence page is working fine and data is being fetched successfully from the api and displayed on the page
 
 export default WeatherIntelligence;
