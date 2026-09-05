@@ -11,7 +11,7 @@ import { ChampionshipOdds } from '../types/prediction';
 
 const TournamentWinnerPrediction: React.FC = () => {
   const [odds, setOdds] = useState<ChampionshipOdds[] | null>(null);
-
+//prediction of the winner of the tournament is being fetched from the api and displayed on the page
   useEffect(() => {
     getChampionshipOdds().then(setOdds);
   }, []);
@@ -65,5 +65,6 @@ const TournamentWinnerPrediction: React.FC = () => {
     </div>
   );
 };
+
 
 export default TournamentWinnerPrediction;
