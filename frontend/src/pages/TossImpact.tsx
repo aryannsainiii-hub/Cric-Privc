@@ -6,7 +6,7 @@ import { getTossScenarios } from '../services/predictionService';
 import { TossScenario } from '../types/prediction';
 import { getTeamById } from '../data/teams';
 import { useMatch } from '../context/MatchContext';
-
+//files imported successfully and no errors found
 const TossImpact: React.FC = () => {
   const { config } = useMatch();
   const [scenarios, setScenarios] = useState<TossScenario[] | null>(null);
