@@ -13,7 +13,7 @@ const savedPredictions = [
 
 const Profile: React.FC = () => {
   const favouriteTeam = getTeamById('mi');
-
+//users profile page with saved predictions, preferences, and notification settings
   return (
     <div className="flex flex-col gap-6">
       <SectionHeader title="Profile" description="Your Cric Privé dashboard, at a glance." />
