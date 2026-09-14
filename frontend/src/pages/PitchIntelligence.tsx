@@ -36,5 +36,5 @@ const PitchIntelligence: React.FC = () => {
     </div>
   );
 };
-
+//release
 export default PitchIntelligence;
