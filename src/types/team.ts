@@ -6,7 +6,7 @@ export interface Team {
   secondaryColor: string;
   logoInitials: string;
   homeVenueId: string;
-  form: number[]; // last 5 results, 1 = win, 0 = loss
+  form: number[]; // lastt 5 results, 1 = win, 0 = loss
 }
 
 export interface TeamStrength {
